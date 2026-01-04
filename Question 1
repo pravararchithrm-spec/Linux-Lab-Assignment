@@ -1,1 +1,122 @@
+Step 0 - 
+cd ~
+mkdir Linux-Lab-Assignment
+cd Linux-Lab-Assignment
+mkdir Question1
+cd Question1
+
+Explanation - 
+cd ~ moves to the home directory
+mkdir Linux-Lab-Assignment creates the main lab folder
+mkdir Question1 creates the folder for Question 1
+
+Step 1 - 
+Create Documentation Files for Question 1
+Code - 
+touch commands.txt output.txt explanation.txt
+This Creates files to store commands, outputs, and explanations
+
+Part 1 - Display your currently logged-in username and all groups your user account belongs to.
+Commands - 
+whoami
+groups
+
+Output - 
+coder sudo
+Explanation - 
+The whoami command displays the currently logged-in username.
+The groups command shows all groups associated with the user account.
+
+Part 2 - Display the current working directory and list all files and directories in that location using long format listing.
+Commands - 
+pwd
+ls -l
+
+Explanation - 
+pwd displays the present working directory.
+ls -l lists files and directories with permissions, ownership, and size details.
+
+Part 3 - 
+Commands -
+echo "Linux user environment verified" > user_info.txt
+
+Output - 
+No output 
+Explanation - 
+This command creates the file user_info.txt and writes the verification message into it.
+
+Part 4 - 
+Commands - 
+wc -c user_info.txt
+
+Output -
+32 user_info.txt
+
+Explanation -
+wc -c counts and displays the total number of characters present in the file.
+
+Part 5 - 
+Commands - 
+man mkdir
+
+Output - 
+no entry for mkdir
+See 'man 7 undocumented' for help when manual pages are not available
+
+Explanation -
+The man mkdir command was executed to view the manual page.
+The system returned a message indicating that the manual page is not available on this system.
+One useful option of mkdir is -p, which creates parent directories automatically if they do not exist.
+
+Part 6 - 
+Commands - 
+ls ~ | sort
+
+Output - 
+Coursera 
+data 
+Desktop 
+etc are the outputs. 
+
+Explanation -
+This command lists all files and directories in the home directory in alphabetical order.
+
+Part 7 - 
+Commands - 
+echo "admin logged in" > log.txt
+echo "user logged out" >> log.txt
+grep "admin" log.txt 
+
+Explanation -
+grep searches for the word "admin" in log.txt and displays only the matching lines.
+
+Part 8 - 
+Commands - 
+uname -r
+
+Output - 
+6.5.0-1024-aws
+Explanation -
+uname -r displays the version of the Linux kernel currently running.
+
+Part 9 - 
+Commands - 
+ping -c 4 www.google.com
+
+Output - 
+PING www.google.com (142.251.111.103) 56(84) bytes of data. 
+etc. 
+Explanation -
+This command sends ICMP packets to Google to verify network connectivity.
+
+Part 10 - 
+Commands - 
+uptime
+
+Output - 
+06:03:49 up 10 days, 5:00, 0 users, load average: 2.29, 2.59, 2.67
+Explanation -
+The uptime command shows how long the system has been running, number of logged-in users, and load average.
+
+
 

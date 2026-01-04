@@ -1,1 +1,101 @@
+Step 0 - Create Question2 folder. 
+cd ~/Linux-Lab-Assignment
+mkdir Question2
+cd Question2
+
+pwd
+
+Step 1 - Create documentation files.
+touch commands.txt output.txt explanation.txt
+ls
+
+Part 1 - 
+Commands - 
+mkdir ~/documents
+
+Output - 
+(no output)
+
+Explanation - 
+The mkdir command creates a directory named documents inside the home directory.
+
+Part 2 - 
+Commands -
+cd ~/documents
+touch plan.txt
+
+Output -
+(No output)
+Explanation - 
+cd moves into the documents directory and touch creates an empty file named plan.txt.
+
+Part 3 - 
+Commands -
+echo "Finish Linux lab assignment by Friday" > plan.txt
+
+Output -
+(No output)
+Explanation - 
+This command writes sample project-related text into the plan.txt file.
+
+Part 4 - 
+Commands -
+ls -l plan.txt
+
+Explanation - 
+ls -l displays file permissions, owner name, group name, size, and timestamp.
+
+Part 5 - 
+Commands -
+cp plan.txt plan_copy.txt
+
+Output -
+(No output)
+Explanation - 
+The cp command creates a duplicate copy of plan.txt named plan_copy.txt.
+
+Part 6 - 
+Commands -
+cd ~
+mv documents project_documents
+
+Output -
+(No output)
+Explanation - 
+The mv command renames the documents directory to project_documents.
+
+Part 7 - 
+Commands -
+mkdir ~/project_documents/archive
+
+Output -
+(No output) 
+Explanation - 
+This command creates an archive subdirectory inside project_documents.
+
+Part 8 - 
+Commands -
+mv ~/project_documents/plan_copy.txt ~/project_documents/archive/
+
+Explanation - 
+The mv command moves plan_copy.txt into the archive directory.
+
+Part 9 - 
+Commands -
+ls -R ~/project_documents
+
+Explanation - 
+ls -R displays the complete directory structure recursively.
+
+Part 10 - 
+Commands -
+realpath ~/project_documents/archive/plan_copy.txt
+
+Output -
+/home/coder/project_documents/archive/plan_copy.txt
+Explanation - 
+realpath displays the absolute path of the specified file.
+
+
+
 

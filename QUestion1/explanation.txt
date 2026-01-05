@@ -1,0 +1,10 @@
+whoami - shows currently logged in user 
+pwd - displays the current working directory 
+ls -l - lists all files with permissions and owner
+echo - creates a file with the given text
+wc -c user_info.txt - counts the number of characters in the file
+uname -r - shows linux kernel version
+uptime - displays how long the system has been running, number of users and load average 
+
+
+

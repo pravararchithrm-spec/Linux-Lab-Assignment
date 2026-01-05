@@ -1,0 +1,6 @@
+
+pravararchith 
+/home/pravararchith
+-rw-r--r-- 1 
+32 user_info.txt
+

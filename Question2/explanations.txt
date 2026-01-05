@@ -1,0 +1,10 @@
+1 - We created a directory in the home directory to store project-related files. this is our workplace. 
+2 - we created an empty file plan.txt in the project_documentsdirectory. this file will contain project notes. 
+3- we added sample text tpo plan.txt using echo and confirmed using cat 
+4 - ls -l listsfile permission, owner etc. 
+5 - we copy to create backup file.
+6 - We renamed the project_documents to prpoject_documents_renamed
+7 - we created subsidary archive 
+8 - we moved plan_copy.txt into archive folder. 
+9 - ls -R lists all files and subsidaries recursively  showing full folder structure. 
+10 - realpath shows the absolute path of plan_copy.txt aftyer moving it into the archive folder

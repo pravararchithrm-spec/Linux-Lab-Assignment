@@ -1,0 +1,9 @@
+No output for mkdir 
+No output for touch 
+Complete project plan for linux lab assignment 
+-rw-r--r-- 1 
+project_document_renamed 
+plan.txt archive 
+plan_copy.txt 
+
+realpath - /home/pravararchithrm-spec/project_documents_renamed/archive/plan_copy.txt

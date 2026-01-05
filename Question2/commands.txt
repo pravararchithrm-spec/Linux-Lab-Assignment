@@ -1,0 +1,23 @@
+mkdir ~/projects_documents
+cd ~/projects_documents
+touch plan.txt
+
+echo "Complete project plan for Linux Lab Assignment" > plan.txt
+cat plan.txt
+
+ls -l plan.txt 
+
+cp plan.txt plan_copy.txt
+ls
+
+cd~
+mv project_documents project_documents_renamed
+ls
+cd ~/project_documents_renamed
+mkdir archive 
+ls
+mv plan_copy.txt archive/
+ls archive 
+ls -R
+realpath archive/plan_copy.txt
+

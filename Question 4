@@ -1,1 +1,129 @@
+Step 0 - 
+cd ~/Linux-Lab-Assignment
+mkdir Question4
+cd Question4
+
+pwd 
+
+Step 1 - 
+touch commands.txt output.txt explanation.txt
+ls
+
+Part 1 -
+Commands - 
+uptime
+
+OUtput - 
+12:53:37 up 5 days, 11:51, o users, load average: 7.49, 7.57, 5.81
+
+Explanation - 
+The uptime command displays how long the system has been running since the last boot.
+
+
+Part 2 -
+Commands - 
+ps -u $USER
+
+OUtput - 
+PID TTY    TIME CMD
+Explanation - 
+ps -u $USER lists all processes running under the logged-in user account.
+
+
+Part 3 -
+Commands - 
+top -u $USER
+
+Explanation - 
+The top -u $USER command displays real-time CPU usage of processes owned by the current user.
+The process at the top of the list is consuming the highest CPU.
+
+
+Part 4 -
+Commands - 
+sleep 300 &
+jobs
+
+OUtput - 
+[1] 720 
+Afters jobs
+[1]+ Running       sleep 300 &
+
+Explanation - 
+sleep 300 & starts a command in the background.
+The jobs command verifies that the background process is running.
+
+
+Part 5 -
+Commands - 
+ps -o pid,ni,cmd -u $USER
+renice 10 -p <PID>
+ps -o pid,ni,cmd -p <PID>
+
+OUtput - 
+screenshot
+
+Explanation - 
+The renice command changes the priority of a running process.
+A higher nice value means lower priority for the process.
+
+Part 6 -
+Commands - 
+free -h
+
+OUtput - 
+screenshot 
+
+Explanation - 
+free -h shows total, used, and available memory in a human-readable format.
+
+Part 7 -
+Commands - 
+df -h ~
+
+OUtput - 
+screenshot
+
+Explanation - 
+df -h ~ displays disk usage statistics of the filesystem containing the home directory.
+
+
+Part 8 -
+Commands - 
+echo $SHELL
+
+OUtput - 
+/bin/bash
+
+Explanation - 
+This command displays the path of the shell currently in use.
+
+Part 9 -
+Commands - 
+uname -a > system_report.txt
+
+OUtput - 
+Linux 7e385abb3de3 6.5.0-1024-aws #24-22.04.1-Ubuntu SMP Thu Jul 18 10:43:12 UTC 2024 x86_64 x86_64 GNU/Linux
+
+Explanation - 
+This command redirects system information output into the system_report.txt file.
+
+
+Part 10 -
+Commands - 
+ncdu ~
+
+OUtput - 
+bash: ncdu: command not found
+
+Explanation - 
+ncdu provides an interactive visualization of disk usage, showing directory sizes.
+If the tool is not installed, the system displays an error message.
+
+
+
+
+
+
+
 
